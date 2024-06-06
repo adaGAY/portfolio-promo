@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color:red;
+    color: white;
+ 
+}
+ul{
+    display: flex;
+    
+}
+li{
+    margin-right: 10vh;
+    list-style: none;
+    font-weight: bold;
+    
+
+}
+li,a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+}
+li a:hover{
+    color: blue;
+}
+.didi{
+    width: 10vh;
+}
+.dingue{
+    color: red;
+}
+.pp{
+    border: 2px solid;
+    height: 100vh;
+    text-align: center;    
+}
+.pp::before{
+    content: "";
+    position: absolute;
+   background-image: url(img/photo\ de\ groupe.png);
+   background-size: cover;
+   background-position: center;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0.4;  
+}
+
+.pp h2 {
+    position:relative;
+    top: 20vh;
+ 
+}
+
+.pp p {
+    position: relative;
+    top:20vh;
+}
+
+/*fin de la première section*/
+
+.pro{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.paragraphe{
+    font-size: 25px;
+}
+.bloc{
+    display: flex;
+    justify-content: space-around;
+}
+.bloc1,.bloc2,.bloc3{
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.bloc div{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3 s ease-in-out;
+    transition: .3 s ease-in-out;
+
+}
+.bloc div :hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+button{
+    border-radius: 10px;
+    width: 95px;
+    background-color: black;
+    color: white;
+}
+
+.comp{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.form fieldset{
+    width: 30%;
+    border:1px solid black ;
+    margin: 0 auto;
+}
+
+.form input{
+    width:50% ;
+   
+}
+
+.form h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.form fieldset button{
+    margin-left: 75%;
+    box-shadow: 2px 2px 4px black;
+}
+
+footer section {
+    display: flex;
+    position: relative;
+   justify-content: space-between;
+background-color: red;
+}
+
+footer p{
+    display: flex;
+    margin-left: 70px;
+    justify-content:center ;
+    color: white;
+}
+
+footer a img{
+    display: flex;
+    width: 4vw;
+   padding-top: 5px;
+   margin-right: 5vw;
+   justify-content:flex-end ;
+
+}
